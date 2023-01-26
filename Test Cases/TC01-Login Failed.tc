@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Wrong Password</description>
+   <name>TC01-Login Failed</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <testCaseGuid>fa194cac-3765-4714-b9ad-08c46662be75</testCaseGuid>
+</TestCaseEntity>

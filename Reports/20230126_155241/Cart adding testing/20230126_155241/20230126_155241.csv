@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cart adding testing,,,,2023-01-26 15:52:45,2023-01-26 15:55:11,2m - 26.066s,PASSED
+,,,,,,,
+Test Cases/TC04-Cart adding success,,,,2023-01-26 15:52:45,2023-01-26 15:53:19,33.917s,PASSED
+"startApplication(""C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk"", true)",,,,2023-01-26 15:52:46,2023-01-26 15:53:07,21.444s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.ImageView (2)""), 0)",,,,2023-01-26 15:53:07,2023-01-26 15:53:09,1.487s,PASSED
+"scrollToText(""Add To Cart"")",,,,2023-01-26 15:53:09,2023-01-26 15:53:14,4.997s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.view.ViewGroup (1)""), 0)",,,,2023-01-26 15:53:14,2023-01-26 15:53:14,0.433s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.ImageView (3)""), 0)",,,,2023-01-26 15:53:14,2023-01-26 15:53:15,0.878s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.TextView - Proceed To Checkout""), 0)",,,,2023-01-26 15:53:15,2023-01-26 15:53:16,0.799s,PASSED
+delay(2),,,,2023-01-26 15:53:16,2023-01-26 15:53:18,2.070s,PASSED
+closeApplication(),,,,2023-01-26 15:53:18,2023-01-26 15:53:19,1.283s,PASSED
+,,,,,,,
+Test Cases/TC05-Cart adding success_2,,adding different item,Cart,2023-01-26 15:53:19,2023-01-26 15:54:03,44.148s,PASSED
+"startApplication(""C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk"", true)",,,,2023-01-26 15:53:20,2023-01-26 15:53:39,19.367s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.ImageView (4)""), 0)",,,,2023-01-26 15:53:39,2023-01-26 15:53:40,1.137s,PASSED
+"scrollToText(""Add To Cart"")",,,,2023-01-26 15:53:40,2023-01-26 15:53:46,5.740s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.TextView - Add To Cart""), 0)",,,,2023-01-26 15:53:46,2023-01-26 15:53:47,0.613s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.ImageView (5)""), 0)",,,,2023-01-26 15:53:47,2023-01-26 15:53:47,0.863s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.ImageView (6)""), 0)",,,,2023-01-26 15:53:47,2023-01-26 15:53:48,0.787s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.TextView - Catalog""), 0)",,,,2023-01-26 15:53:48,2023-01-26 15:53:50,1.948s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.ImageView (7)""), 0)",,,,2023-01-26 15:53:50,2023-01-26 15:53:52,1.749s,PASSED
+"scrollToText(""Add To Cart"")",,,,2023-01-26 15:53:52,2023-01-26 15:53:58,5.717s,PASSED
+"tap(findTestObject(""Cart/android.widget.TextView - Add To Cart""), 0)",,,,2023-01-26 15:53:58,2023-01-26 15:53:58,0.466s,PASSED
+"tap(findTestObject(""Cart/android.widget.ImageView (5)""), 0)",,,,2023-01-26 15:53:58,2023-01-26 15:53:59,0.781s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Cart/android.widget.TextView - My Cart""), ""My Cart"")",,,,2023-01-26 15:53:59,2023-01-26 15:54:00,0.719s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.TextView - Proceed To Checkout""), 0)",,,,2023-01-26 15:54:00,2023-01-26 15:54:00,0.397s,PASSED
+delay(2),,,,2023-01-26 15:54:00,2023-01-26 15:54:02,2.009s,PASSED
+closeApplication(),,,,2023-01-26 15:54:02,2023-01-26 15:54:03,1.195s,PASSED
+,,,,,,,
+Test Cases/TC06-Cart substract success,,,,2023-01-26 15:54:03,2023-01-26 15:54:37,33.783s,PASSED
+"startApplication(""C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk"", true)",,,,2023-01-26 15:54:04,2023-01-26 15:54:23,19.291s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.ImageView (9)""), 0)",,,,2023-01-26 15:54:23,2023-01-26 15:54:24,1.084s,PASSED
+"scrollToText(""Add To Cart"")",,,,2023-01-26 15:54:24,2023-01-26 15:54:30,5.820s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.ImageView (10)""), 0)",,,,2023-01-26 15:54:30,2023-01-26 15:54:30,0.495s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.TextView - Add To Cart (1)""), 0)",,,,2023-01-26 15:54:30,2023-01-26 15:54:31,0.864s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.ImageView (11)""), 0)",,,,2023-01-26 15:54:31,2023-01-26 15:54:32,0.881s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.ImageView (12)""), 0)",,,,2023-01-26 15:54:32,2023-01-26 15:54:33,0.783s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.TextView - Proceed To Checkout (1)""), 0)",,,,2023-01-26 15:54:33,2023-01-26 15:54:34,0.899s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-01-26 15:54:34,2023-01-26 15:54:36,2.027s,PASSED
+closeApplication(),,,,2023-01-26 15:54:36,2023-01-26 15:54:37,1.048s,PASSED
+,,,,,,,
+Test Cases/TC07-Cart remove item success,,,,2023-01-26 15:54:37,2023-01-26 15:55:11,33.843s,PASSED
+"startApplication(""C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk"", true)",,,,2023-01-26 15:54:38,2023-01-26 15:54:57,19.262s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.ImageView (13)""), 0)",,,,2023-01-26 15:54:57,2023-01-26 15:54:58,1.080s,PASSED
+"scrollToText(""Add To Cart"")",,,,2023-01-26 15:54:58,2023-01-26 15:55:04,5.681s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.ImageView (14)""), 0)",,,,2023-01-26 15:55:04,2023-01-26 15:55:04,0.485s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.view.ViewGroup (3)""), 0)",,,,2023-01-26 15:55:04,2023-01-26 15:55:05,0.615s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.ImageView (15)""), 0)",,,,2023-01-26 15:55:05,2023-01-26 15:55:06,0.951s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.TextView - Remove Item""), 0)",,,,2023-01-26 15:55:06,2023-01-26 15:55:06,0.782s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Cart/android.widget.TextView - No Items""), ""No Items"")",,,,2023-01-26 15:55:06,2023-01-26 15:55:07,0.890s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.TextView - Go Shopping""), 0)",,,,2023-01-26 15:55:07,2023-01-26 15:55:08,0.448s,PASSED
+delay(2),,,,2023-01-26 15:55:08,2023-01-26 15:55:10,2.013s,PASSED
+closeApplication(),,,,2023-01-26 15:55:10,2023-01-26 15:55:11,1.020s,PASSED

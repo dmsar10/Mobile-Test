@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Cart adding testing" time="146.066" tests="4" failures="0" errors="0">
+   <testsuite name="Cart adding testing" tests="4" failures="0" errors="0" time="146.066" skipped="0" timestamp="2023-01-26 15:52:45" hostname="dimas - LAPTOP-6BQ6KBE7" id="Test Suites/Cart adding testing">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86 - Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dimas\\git\\Mobile-Test\\Reports\\20230126_155241\\Cart adding testing\\20230126_155241"/>
+         <property name="logFiles" value="C:\\Users\\dimas\\git\\Mobile-Test\\Reports\\20230126_155241\\Cart adding testing\\20230126_155241\\appium.log, C:\\Users\\dimas\\git\\Mobile-Test\\Reports\\20230126_155241\\Cart adding testing\\20230126_155241\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dimas - LAPTOP-6BQ6KBE7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone_x86"/>
+         <property name="hostAddress" value="192.168.100.15"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86 - Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/TC04-Cart adding success" time="33.917" classname="Test Cases/TC04-Cart adding success" status="PASSED">
+         <system-out><![CDATA[2023-01-26 15:52:45 - [TEST_CASE][PASSED] - Test Cases/TC04-Cart adding success: Test Cases/TC04-Cart adding success
+
+2023-01-26 15:52:46 - [TEST_STEP][PASSED] - startApplication("C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk", true): Started app at: 'C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk'
+
+2023-01-26 15:52:46 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-01-26 15:52:48 - [MESSAGE][INFO] - Appium server started on port 49,484
+
+2023-01-26 15:53:07 - [MESSAGE][PASSED] - Started app at: 'C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk'
+
+2023-01-26 15:53:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.ImageView (2)"), 0): Tapped on element 'Object Repository/Cart/android.widget.ImageView (2)'
+
+2023-01-26 15:53:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:53:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.ImageView (2)'
+
+2023-01-26 15:53:09 - [TEST_STEP][PASSED] - scrollToText("Add To Cart"): Scrolling to text 'Add To Cart' successfully
+
+2023-01-26 15:53:14 - [MESSAGE][PASSED] - Scrolling to text 'Add To Cart' successfully
+
+2023-01-26 15:53:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.view.ViewGroup (1)"), 0): Tapped on element 'Object Repository/Cart/android.view.ViewGroup (1)'
+
+2023-01-26 15:53:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:53:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.view.ViewGroup (1)'
+
+2023-01-26 15:53:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.ImageView (3)"), 0): Tapped on element 'Object Repository/Cart/android.widget.ImageView (3)'
+
+2023-01-26 15:53:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:53:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.ImageView (3)'
+
+2023-01-26 15:53:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.TextView - Proceed To Checkout"), 0): Tapped on element 'Object Repository/Cart/android.widget.TextView - Proceed To Checkout'
+
+2023-01-26 15:53:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:53:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.TextView - Proceed To Checkout'
+
+2023-01-26 15:53:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-01-26 15:53:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-01-26 15:53:18 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-01-26 15:53:19 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC05-Cart adding success_2" time="44.148" classname="Test Cases/TC05-Cart adding success_2" status="PASSED">
+         <system-out><![CDATA[2023-01-26 15:53:19 - [TEST_CASE][PASSED] - Test Cases/TC05-Cart adding success_2: Test Cases/TC05-Cart adding success_2
+
+2023-01-26 15:53:20 - [TEST_STEP][PASSED] - startApplication("C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk", true): Started app at: 'C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk'
+
+2023-01-26 15:53:20 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-01-26 15:53:21 - [MESSAGE][INFO] - Appium server started on port 49,748
+
+2023-01-26 15:53:39 - [MESSAGE][PASSED] - Started app at: 'C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk'
+
+2023-01-26 15:53:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.ImageView (4)"), 0): Tapped on element 'Object Repository/Cart/android.widget.ImageView (4)'
+
+2023-01-26 15:53:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:53:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.ImageView (4)'
+
+2023-01-26 15:53:40 - [TEST_STEP][PASSED] - scrollToText("Add To Cart"): Scrolling to text 'Add To Cart' successfully
+
+2023-01-26 15:53:46 - [MESSAGE][PASSED] - Scrolling to text 'Add To Cart' successfully
+
+2023-01-26 15:53:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.TextView - Add To Cart"), 0): Tapped on element 'Object Repository/Cart/android.widget.TextView - Add To Cart'
+
+2023-01-26 15:53:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:53:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.TextView - Add To Cart'
+
+2023-01-26 15:53:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.ImageView (5)"), 0): Tapped on element 'Object Repository/Cart/android.widget.ImageView (5)'
+
+2023-01-26 15:53:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:53:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.ImageView (5)'
+
+2023-01-26 15:53:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.ImageView (6)"), 0): Tapped on element 'Object Repository/Cart/android.widget.ImageView (6)'
+
+2023-01-26 15:53:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:53:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.ImageView (6)'
+
+2023-01-26 15:53:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.TextView - Catalog"), 0): Tapped on element 'Object Repository/Cart/android.widget.TextView - Catalog'
+
+2023-01-26 15:53:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:53:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.TextView - Catalog'
+
+2023-01-26 15:53:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.ImageView (7)"), 0): Tapped on element 'Object Repository/Cart/android.widget.ImageView (7)'
+
+2023-01-26 15:53:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:53:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.ImageView (7)'
+
+2023-01-26 15:53:52 - [TEST_STEP][PASSED] - scrollToText("Add To Cart"): Scrolling to text 'Add To Cart' successfully
+
+2023-01-26 15:53:58 - [MESSAGE][PASSED] - Scrolling to text 'Add To Cart' successfully
+
+2023-01-26 15:53:58 - [TEST_STEP][PASSED] - tap(findTestObject("Cart/android.widget.TextView - Add To Cart"), 0): Tapped on element 'Object Repository/Cart/android.widget.TextView - Add To Cart'
+
+2023-01-26 15:53:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:53:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.TextView - Add To Cart'
+
+2023-01-26 15:53:58 - [TEST_STEP][PASSED] - tap(findTestObject("Cart/android.widget.ImageView (5)"), 0): Tapped on element 'Object Repository/Cart/android.widget.ImageView (5)'
+
+2023-01-26 15:53:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:53:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.ImageView (5)'
+
+2023-01-26 15:53:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Cart/android.widget.TextView - My Cart"), "My Cart"): Actual text and expected text of test object 'Object Repository/Cart/android.widget.TextView - My Cart' are matched.
+
+2023-01-26 15:54:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Cart/android.widget.TextView - My Cart' are matched.
+
+2023-01-26 15:54:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.TextView - Proceed To Checkout"), 0): Tapped on element 'Object Repository/Cart/android.widget.TextView - Proceed To Checkout'
+
+2023-01-26 15:54:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:54:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.TextView - Proceed To Checkout'
+
+2023-01-26 15:54:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-01-26 15:54:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-01-26 15:54:02 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-01-26 15:54:03 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC06-Cart substract success" time="33.783" classname="Test Cases/TC06-Cart substract success" status="PASSED">
+         <system-out><![CDATA[2023-01-26 15:54:03 - [TEST_CASE][PASSED] - Test Cases/TC06-Cart substract success: Test Cases/TC06-Cart substract success
+
+2023-01-26 15:54:04 - [TEST_STEP][PASSED] - startApplication("C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk", true): Started app at: 'C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk'
+
+2023-01-26 15:54:04 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-01-26 15:54:06 - [MESSAGE][INFO] - Appium server started on port 50,033
+
+2023-01-26 15:54:23 - [MESSAGE][PASSED] - Started app at: 'C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk'
+
+2023-01-26 15:54:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.ImageView (9)"), 0): Tapped on element 'Object Repository/Cart/android.widget.ImageView (9)'
+
+2023-01-26 15:54:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:54:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.ImageView (9)'
+
+2023-01-26 15:54:24 - [TEST_STEP][PASSED] - scrollToText("Add To Cart"): Scrolling to text 'Add To Cart' successfully
+
+2023-01-26 15:54:30 - [MESSAGE][PASSED] - Scrolling to text 'Add To Cart' successfully
+
+2023-01-26 15:54:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.ImageView (10)"), 0): Tapped on element 'Object Repository/Cart/android.widget.ImageView (10)'
+
+2023-01-26 15:54:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:54:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.ImageView (10)'
+
+2023-01-26 15:54:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.TextView - Add To Cart (1)"), 0): Tapped on element 'Object Repository/Cart/android.widget.TextView - Add To Cart (1)'
+
+2023-01-26 15:54:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:54:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.TextView - Add To Cart (1)'
+
+2023-01-26 15:54:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.ImageView (11)"), 0): Tapped on element 'Object Repository/Cart/android.widget.ImageView (11)'
+
+2023-01-26 15:54:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:54:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.ImageView (11)'
+
+2023-01-26 15:54:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.ImageView (12)"), 0): Tapped on element 'Object Repository/Cart/android.widget.ImageView (12)'
+
+2023-01-26 15:54:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:54:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.ImageView (12)'
+
+2023-01-26 15:54:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.TextView - Proceed To Checkout (1)"), 0): Tapped on element 'Object Repository/Cart/android.widget.TextView - Proceed To Checkout (1)'
+
+2023-01-26 15:54:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:54:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.TextView - Proceed To Checkout (1)'
+
+2023-01-26 15:54:34 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-01-26 15:54:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-01-26 15:54:36 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-01-26 15:54:37 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC07-Cart remove item success" time="33.843" classname="Test Cases/TC07-Cart remove item success" status="PASSED">
+         <system-out><![CDATA[2023-01-26 15:54:37 - [TEST_CASE][PASSED] - Test Cases/TC07-Cart remove item success: Test Cases/TC07-Cart remove item success
+
+2023-01-26 15:54:38 - [TEST_STEP][PASSED] - startApplication("C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk", true): Started app at: 'C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk'
+
+2023-01-26 15:54:38 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-01-26 15:54:39 - [MESSAGE][INFO] - Appium server started on port 50,287
+
+2023-01-26 15:54:57 - [MESSAGE][PASSED] - Started app at: 'C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk'
+
+2023-01-26 15:54:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.ImageView (13)"), 0): Tapped on element 'Object Repository/Cart/android.widget.ImageView (13)'
+
+2023-01-26 15:54:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:54:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.ImageView (13)'
+
+2023-01-26 15:54:58 - [TEST_STEP][PASSED] - scrollToText("Add To Cart"): Scrolling to text 'Add To Cart' successfully
+
+2023-01-26 15:55:04 - [MESSAGE][PASSED] - Scrolling to text 'Add To Cart' successfully
+
+2023-01-26 15:55:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.ImageView (14)"), 0): Tapped on element 'Object Repository/Cart/android.widget.ImageView (14)'
+
+2023-01-26 15:55:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:55:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.ImageView (14)'
+
+2023-01-26 15:55:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.view.ViewGroup (3)"), 0): Tapped on element 'Object Repository/Cart/android.view.ViewGroup (3)'
+
+2023-01-26 15:55:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:55:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.view.ViewGroup (3)'
+
+2023-01-26 15:55:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.ImageView (15)"), 0): Tapped on element 'Object Repository/Cart/android.widget.ImageView (15)'
+
+2023-01-26 15:55:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:55:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.ImageView (15)'
+
+2023-01-26 15:55:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.TextView - Remove Item"), 0): Tapped on element 'Object Repository/Cart/android.widget.TextView - Remove Item'
+
+2023-01-26 15:55:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:55:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.TextView - Remove Item'
+
+2023-01-26 15:55:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Cart/android.widget.TextView - No Items"), "No Items"): Actual text and expected text of test object 'Object Repository/Cart/android.widget.TextView - No Items' are matched.
+
+2023-01-26 15:55:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Cart/android.widget.TextView - No Items' are matched.
+
+2023-01-26 15:55:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Cart/android.widget.TextView - Go Shopping"), 0): Tapped on element 'Object Repository/Cart/android.widget.TextView - Go Shopping'
+
+2023-01-26 15:55:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-26 15:55:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cart/android.widget.TextView - Go Shopping'
+
+2023-01-26 15:55:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-01-26 15:55:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-01-26 15:55:10 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-01-26 15:55:11 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-01-26 15:52:45 - [TEST_SUITE][PASSED] - Cart adding testing: Test Cases/TC07-Cart remove item success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

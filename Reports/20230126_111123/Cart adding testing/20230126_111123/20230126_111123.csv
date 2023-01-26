@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cart adding testing,,,,2023-01-26 11:11:27,2023-01-26 11:13:02,1m - 34.403s,PASSED
+,,,,,,,
+Test Cases/TC04-Cart adding success,,,,2023-01-26 11:11:28,2023-01-26 11:12:08,40.244s,PASSED
+"startApplication(""C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk"", true)",,,,2023-01-26 11:11:29,2023-01-26 11:11:56,27.428s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.ImageView (2)""), 0)",,,,2023-01-26 11:11:56,2023-01-26 11:11:58,1.894s,PASSED
+"scrollToText(""Add To Cart"")",,,,2023-01-26 11:11:58,2023-01-26 11:12:04,5.886s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.view.ViewGroup (1)""), 0)",,,,2023-01-26 11:12:04,2023-01-26 11:12:04,0.335s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.ImageView (3)""), 0)",,,,2023-01-26 11:12:04,2023-01-26 11:12:05,0.927s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.TextView - Proceed To Checkout""), 0)",,,,2023-01-26 11:12:05,2023-01-26 11:12:06,0.922s,PASSED
+closeApplication(),,,,2023-01-26 11:12:06,2023-01-26 11:12:08,2.081s,PASSED
+,,,,,,,
+Test Cases/TC05-Cart adding success_2,,adding different item,Cart,2023-01-26 11:12:08,2023-01-26 11:13:02,53.658s,PASSED
+"startApplication(""C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk"", true)",,,,2023-01-26 11:12:09,2023-01-26 11:12:38,29.038s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.ImageView (4)""), 0)",,,,2023-01-26 11:12:38,2023-01-26 11:12:40,1.415s,PASSED
+"scrollToText(""Add To Cart"")",,,,2023-01-26 11:12:40,2023-01-26 11:12:45,5.871s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.TextView - Add To Cart""), 0)",,,,2023-01-26 11:12:45,2023-01-26 11:12:46,0.762s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.ImageView (5)""), 0)",,,,2023-01-26 11:12:46,2023-01-26 11:12:47,0.962s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.ImageView (6)""), 0)",,,,2023-01-26 11:12:47,2023-01-26 11:12:48,0.964s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.TextView - Catalog""), 0)",,,,2023-01-26 11:12:48,2023-01-26 11:12:50,2.070s,PASSED
+"tap(findTestObject(""Object Repository/Cart/android.widget.ImageView (7)""), 0)",,,,2023-01-26 11:12:50,2023-01-26 11:12:52,1.796s,PASSED
+"scrollToText(""Add To Cart"")",,,,2023-01-26 11:12:52,2023-01-26 11:12:58,5.782s,PASSED
+"tap(findTestObject(""Cart/android.widget.TextView - Add To Cart""), 0)",,,,2023-01-26 11:12:58,2023-01-26 11:12:58,0.614s,PASSED
+"tap(findTestObject(""Cart/android.widget.ImageView (5)""), 0)",,,,2023-01-26 11:12:58,2023-01-26 11:12:59,0.850s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Cart/android.widget.TextView - My Cart""), ""My Cart"")",,,,2023-01-26 11:12:59,2023-01-26 11:13:00,0.782s,PASSED
+closeApplication(),,,,2023-01-26 11:13:00,2023-01-26 11:13:02,1.774s,PASSED
