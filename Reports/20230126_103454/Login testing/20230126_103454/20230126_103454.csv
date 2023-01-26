@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login testing,,,,2023-01-26 10:34:57,2023-01-26 10:36:17,1m - 19.844s,PASSED
+,,,,,,,
+Test Cases/TC01-Login Failed,,Wrong Password,Login,2023-01-26 10:34:58,2023-01-26 10:35:26,28.096s,PASSED
+"startApplication(""C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk"", true)",,,,2023-01-26 10:34:58,2023-01-26 10:35:16,18.353s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView""), 0)",,,,2023-01-26 10:35:16,2023-01-26 10:35:18,1.233s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Log In""), 0)",,,,2023-01-26 10:35:18,2023-01-26 10:35:20,1.970s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.EditText""), "" "", 0)",,,,2023-01-26 10:35:20,2023-01-26 10:35:22,2.120s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.EditText (1)""), "" "", 0)",,,,2023-01-26 10:35:22,2023-01-26 10:35:23,1.181s,PASSED
+"tap(findTestObject(""Object Repository/android.view.ViewGroup""), 0)",,,,2023-01-26 10:35:23,2023-01-26 10:35:24,0.694s,PASSED
+"verifyElementText(findTestObject(""Object Repository/android.widget.TextView - Provided credentials do not match any user in this service""), ""Provided credentials do not match any user in this service."")",,,,2023-01-26 10:35:24,2023-01-26 10:35:25,0.836s,PASSED
+closeApplication(),,,,2023-01-26 10:35:25,2023-01-26 10:35:26,1.156s,PASSED
+,,,,,,,
+Test Cases/TC02-Login Failed_2,,Blank Password,Login,2023-01-26 10:35:26,2023-01-26 10:35:52,26.215s,PASSED
+"startApplication(""C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk"", true)",,,,2023-01-26 10:35:26,2023-01-26 10:35:44,17.882s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (1)""), 0)",,,,2023-01-26 10:35:44,2023-01-26 10:35:45,1.027s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Log In (1)""), 0)",,,,2023-01-26 10:35:45,2023-01-26 10:35:47,1.965s,PASSED
+"setText(findTestObject(""android.widget.EditText (2)""), ""Lol1234"", 0)",,,,2023-01-26 10:35:47,2023-01-26 10:35:49,2.157s,PASSED
+"tap(findTestObject(""Object Repository/android.view.ViewGroup (1)""), 0)",,,,2023-01-26 10:35:49,2023-01-26 10:35:50,0.693s,PASSED
+"verifyElementText(findTestObject(""Object Repository/android.widget.TextView - Password is required""), ""Password is required"")",,,,2023-01-26 10:35:50,2023-01-26 10:35:51,0.819s,PASSED
+closeApplication(),,,,2023-01-26 10:35:51,2023-01-26 10:35:52,1.116s,PASSED
+,,,,,,,
+Test Cases/TC03-Login Failed_3,,Blank Username and Blank Password,,2023-01-26 10:35:52,2023-01-26 10:36:17,25.188s,PASSED
+"startApplication(""C:\Users\dimas\Downloads\Android-MyDemoAppRN.1.2.0.build-231.apk"", true)",,,,2023-01-26 10:35:52,2023-01-26 10:36:10,17.738s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (2)""), 0)",,,,2023-01-26 10:36:10,2023-01-26 10:36:11,1.071s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Log In (2)""), 0)",,,,2023-01-26 10:36:11,2023-01-26 10:36:13,1.978s,PASSED
+"tap(findTestObject(""Object Repository/android.view.ViewGroup (2)""), 0)",,,,2023-01-26 10:36:13,2023-01-26 10:36:15,1.665s,PASSED
+"verifyElementText(findTestObject(""Object Repository/android.widget.TextView - Username is required""), ""Username is required"")",,,,2023-01-26 10:36:15,2023-01-26 10:36:16,0.886s,PASSED
+closeApplication(),,,,2023-01-26 10:36:16,2023-01-26 10:36:17,1.278s,PASSED

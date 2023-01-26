@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Blank Username and Blank Password</description>
+   <name>TC03-Login Failed_3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>60cdd1d7-6ecd-4a63-822b-64176baea47a</testCaseGuid>
+</TestCaseEntity>
