@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\dimas\\Downloads\\Android-MyDemoAppRN.1.2.0.build-231.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/Login/android.widget.ImageView (2)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Log In (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/Login/android.widget.TextView - Log In (2)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/Login/android.view.ViewGroup (2)'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/android.widget.TextView - Username is required'), 'Username is required')
+Mobile.verifyElementText(findTestObject('Object Repository/Login/android.widget.TextView - Username is required'), 'Username is required')
 
 Mobile.closeApplication()
 

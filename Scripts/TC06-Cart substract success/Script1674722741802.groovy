@@ -19,15 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\dimas\\Downloads\\Android-MyDemoAppRN.1.2.0.build-231.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.ImageView (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Cart/android.widget.ImageView (9)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.TextView - Log In (1)'), 0)
+Mobile.scrollToText('Add To Cart')
 
-Mobile.setText(findTestObject('Login/android.widget.EditText (2)'), 'Lol1234', 0)
+Mobile.tap(findTestObject('Object Repository/Cart/android.widget.ImageView (10)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Login/android.view.ViewGroup (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Cart/android.widget.TextView - Add To Cart (1)'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Login/android.widget.TextView - Password is required'), 'Password is required')
+Mobile.tap(findTestObject('Object Repository/Cart/android.widget.ImageView (11)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Cart/android.widget.ImageView (12)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Cart/android.widget.TextView - Proceed To Checkout (1)'), 0)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 

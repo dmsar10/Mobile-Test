@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\dimas\\Downloads\\Android-MyDemoAppRN.1.2.0.build-231.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/Login/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Log In'), 0)
+Mobile.tap(findTestObject('Object Repository/Login/android.widget.TextView - Log In'), 0)
 
-Mobile.setText(findTestObject('Object Repository/android.widget.EditText'), ' ', 0)
+Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText'), ' ', 0)
 
-Mobile.setText(findTestObject('Object Repository/android.widget.EditText (1)'), ' ', 0)
+Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (1)'), ' ', 0)
 
-Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup'), 0)
+Mobile.tap(findTestObject('Object Repository/Login/android.view.ViewGroup'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/android.widget.TextView - Provided credentials do not match any user in this service'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Login/android.widget.TextView - Provided credentials do not match any user in this service'), 
     'Provided credentials do not match any user in this service.')
 
 Mobile.closeApplication()

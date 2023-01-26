@@ -19,15 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\dimas\\Downloads\\Android-MyDemoAppRN.1.2.0.build-231.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.ImageView (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Cart/android.widget.ImageView (4)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.TextView - Log In (1)'), 0)
+Mobile.scrollToText('Add To Cart')
 
-Mobile.setText(findTestObject('Login/android.widget.EditText (2)'), 'Lol1234', 0)
+Mobile.tap(findTestObject('Object Repository/Cart/android.widget.TextView - Add To Cart'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Login/android.view.ViewGroup (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Cart/android.widget.ImageView (5)'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Login/android.widget.TextView - Password is required'), 'Password is required')
+Mobile.tap(findTestObject('Object Repository/Cart/android.widget.ImageView (6)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Cart/android.widget.TextView - Catalog'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Cart/android.widget.ImageView (7)'), 0)
+
+Mobile.scrollToText('Add To Cart')
+
+Mobile.tap(findTestObject('Cart/android.widget.TextView - Add To Cart'), 0)
+
+Mobile.tap(findTestObject('Cart/android.widget.ImageView (5)'), 0)
+
+Mobile.verifyElementText(findTestObject('Object Repository/Cart/android.widget.TextView - My Cart'), 'My Cart')
+
+Mobile.tap(findTestObject('Object Repository/Cart/android.widget.TextView - Proceed To Checkout'), 0)
+
+WebUI.delay(2)
 
 Mobile.closeApplication()
 
